@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+nav a{
+    font-size: 15px;
+    color: black;
+    margin-right: 2rem;
+}
+
+.contact a{
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.contact i{
+    color: orange;
+}
+.container{
+    padding: 0 10rem;
+}
+
+header{
+    padding: 25px 0;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container h3{
+    color: orange;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.card-all{
+    background-color: #fafafa;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.top{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .t-right a span{
+    color: #fafafa;
+}
+
+.t-left h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.left{
+    width: 30%;
+}
+
+.left img{
+    width: 100%;
+}
+
+.t-left{
+    font-size: 700;
+}
+
+.right{
+    width: 65%;
+}
+
+.t-right{
+    border: 1px solid orangered;
+    border-radius: 50px;
+    padding: 25px 30px;
+    font-weight: bold;
+    background-color: orangered;
+    color: #fafafa;
+}
+
+
+.bottom{
+    margin-top: 8rem;
+    display: flex;
+    margin-right: 5rem;
+
+}
+
+.b-box i{
+    color: orangered;
+}
+
+.b-box{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.text1{
+    margin-right: 15rem;     
+    width: 49px;
+}
+
+
+.all_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+
+.box{
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: #fafafad6;
+    padding: 25px  45px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+.box img{
+    width: 100%;
+}
+
+.image img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    width: 55%;
+}
+
+.wright a{
+    text-align: left;
+}
+
+.wright{
+    margin-top: 30px;
+}
+
+.wright p{
+    margin: 30px 0;
+}
+
+.wright a{
+    color: #fafafa;
+}
+
+.wright .t-right{
+    width: 30%;
+}
+
+.down{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+} 
+
+h4{
+    margin: 1rem 0;
+}
+
+.down a{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.678);
+    font-weight: 100;
+    display: block;
+}
